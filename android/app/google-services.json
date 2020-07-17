@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "148255722459",
+    "firebase_url": "https://lojavirtualr.firebaseio.com",
+    "project_id": "lojavirtualr",
+    "storage_bucket": "lojavirtualr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148255722459:android:9be3aa797230e2c686b5fe",
+        "android_client_info": {
+          "package_name": "com.rarit.loja_virtual"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148255722459-2fm7fe8aev6kvl012jst864qd1eedjtv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9E6kOgZXBDiqjL896iz8H0FCNZjoIRVI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "148255722459-2fm7fe8aev6kvl012jst864qd1eedjtv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148255722459:android:ff8babd1a119262586b5fe",
+        "android_client_info": {
+          "package_name": "com.rarit.loja_virtual_pro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148255722459-2fm7fe8aev6kvl012jst864qd1eedjtv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9E6kOgZXBDiqjL896iz8H0FCNZjoIRVI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "148255722459-2fm7fe8aev6kvl012jst864qd1eedjtv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
