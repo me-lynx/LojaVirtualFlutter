@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:loja_virtual_pro/common/custom_drawer/custom_drawer.dart';
 
 class BaseScreen extends StatelessWidget {
   final PageController pageController = PageController();
@@ -11,10 +12,11 @@ class BaseScreen extends StatelessWidget {
       physics: const NeverScrollableScrollPhysics(),
       children: <Widget>[
         Scaffold(
-            // AppBar(
-            //   const Text('Home'),
-            // ),
-            ),
+          drawer: CustomDrawer(),
+          appBar: AppBar(
+            title: const Text('Home'),
+          ),
+        ),
         Container(
           color: Color.fromARGB(255, 156, 27, 49),
         ),
