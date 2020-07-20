@@ -4,12 +4,6 @@ import 'package:loja_virtual_pro/screens/base/base_screen.dart';
 
 void main() async {
   runApp(MyApp());
-
-  Firestore.instance.collection('boletos').snapshots().listen((snapshot) {
-    for (DocumentSnapshot document in snapshot.documents) {
-      print(document.data);
-    }
-  });
 }
 
 class MyApp extends StatelessWidget {
@@ -19,9 +13,10 @@ class MyApp extends StatelessWidget {
         title: 'Kyss New York',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
-          primaryColor: Color.fromARGB(255, 156, 27, 49),
-          visualDensity: VisualDensity.adaptivePlatformDensity,
-        ),
+            primaryColor: const Color.fromARGB(255, 156, 27, 49),
+            visualDensity: VisualDensity.adaptivePlatformDensity,
+            scaffoldBackgroundColor: const Color.fromARGB(255, 156, 27, 49),
+            appBarTheme: const AppBarTheme(elevation: 0)),
         home: BaseScreen());
   }
 }
