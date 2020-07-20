@@ -15,6 +15,11 @@ class LoginScreen extends StatelessWidget {
               padding: const EdgeInsets.all(16),
               shrinkWrap: true,
               children: <Widget>[
+                Image.network(
+                    'https://4.bp.blogspot.com/-XCgYxKWRi6Q/WTlI8eTFEoI/AAAAAAAAC9c/1BltvqRE8iMoghmBBDv_VDtS2EGduGIAgCLcB/s1600/KISS%2BNew%2BYork%2B-%2BLogo_fundo%2Bbranco.png'),
+                Container(
+                  height: 50,
+                ),
                 TextFormField(
                     decoration: const InputDecoration(hintText: 'E-mail'),
                     keyboardType: TextInputType.emailAddress,
@@ -33,9 +38,30 @@ class LoginScreen extends StatelessWidget {
                         return null;
                       }
                     }),
+                const SizedBox(
+                  height: 18,
+                ),
                 Align(
                   alignment: Alignment.centerRight,
-                  child: FlatButton(onPressed: () {}),
+                  child: FlatButton(
+                    onPressed: () {},
+                    padding: EdgeInsets.zero,
+                    child: const Text('Esqueci minha senha'),
+                  ),
+                ),
+                SizedBox(
+                  height: 44,
+                  child: RaisedButton(
+                    onPressed: () {},
+                    color: const Color.fromARGB(255, 156, 27, 49),
+                    child: const Text(
+                      'ENTRAR',
+                      style: TextStyle(
+                        fontSize: 18,
+                      ),
+                    ),
+                    textColor: Colors.white,
+                  ),
                 ),
               ],
             )),
